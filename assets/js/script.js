@@ -130,14 +130,14 @@ if (document.location.pathname === '/confirmation.html') {
     });
 }
 
-function startCountdown(seconds) {
+/*function startCountdown(seconds) {
     let counter = seconds;
       
     const interval = setInterval(() => {
       console.log(counter);
       counter--;
     }, 1000);
-  }
+  }*/
 /*function refreshPage() {
     location.reload();
 }*/
