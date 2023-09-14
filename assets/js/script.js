@@ -138,9 +138,9 @@ function startCountdown(seconds) {
       counter--;
     }, 1000);
   }
-function refreshPage() {
+/*function refreshPage() {
     location.reload();
-}
+}*/
 startCountdown(6)
 setInterval(deleteAllCookies, 3000)
-setInterval(refreshPage, 5000); // Refresh every 10 seconds (adjust interval as needed)
+//setInterval(refreshPage, 5000); // Refresh every 10 seconds (adjust interval as needed)
