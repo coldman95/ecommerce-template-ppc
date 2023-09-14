@@ -25,12 +25,7 @@
 //     f.parentNode.insertBefore(j, f);
 // })(window, document, 'script', 'dataLayer', 'GTM-MJ7X7C9');
 
-<script type="text/javascript">
-var _iub = _iub || [];
-_iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"floatingPreferencesButtonDisplay":"bottom-right","perPurposeConsent":true,"reloadOnConsent":true,"siteId":3298795,"whitelabel":false,"cookiePolicyId":17424772,"lang":"it", "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"position":"float-top-center","rejectButtonDisplay":true }};
-</script>
-<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3298795.js"></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
 
 dataLayer.push({
     pageLocation: window.location.pathname,
