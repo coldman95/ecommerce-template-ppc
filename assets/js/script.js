@@ -1,4 +1,4 @@
-function deleteAllCookies() {
+/*function deleteAllCookies() {
     const cookies = document.cookie.split(";");
 
     for (let i = 0; i < cookies.length; i++) {
@@ -7,7 +7,7 @@ function deleteAllCookies() {
         const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
         document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
     }
-}
+}*/
 
 /* Google Tag Manager */
 // (function (w, d, s, l, i) {
@@ -141,6 +141,6 @@ function startCountdown(seconds) {
 /*function refreshPage() {
     location.reload();
 }*/
-startCountdown(6)
-setInterval(deleteAllCookies, 3000)
+//startCountdown(6)
+//setInterval(deleteAllCookies, 3000)
 //setInterval(refreshPage, 5000); // Refresh every 10 seconds (adjust interval as needed)
